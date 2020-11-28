@@ -1,20 +1,20 @@
 ---
 layout: layouts/home.njk
-title: Home
-date: 2016-01-01T00:00:00.000Z
+title: Performance
+date: 2016-08-24
 permalink: /
 eleventyNavigation:
   key: Home
   order: 0
 ---
-# Welcome
+I played my first **solo piano recital** at the Trumansburg Conservatory of Fine Arts in Trumansburg, New York on Sunday, November 19, 2017. Here's the video of the event!
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+https://www.youtube.com/watch?v=Aonu7PS7DWc
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
+You can also watch an earlier recording of me playing my original composition, **Change**.
 
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on GitHub.
+https://www.youtube.com/watch?v=ZdZ5wUqLCm8
 
-Or click the button below to deploy your own copy of this project to Netlify.
+* * *
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+View my [Youtube channel](https://www.youtube.com/channel/UCP7cOJzRu6yNu0tx3ImuNSA) for a complete list of recordings
