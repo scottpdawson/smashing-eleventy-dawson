@@ -194,3 +194,9 @@ button {
 		font-size: 1.1rem;
 	}
 }
+
+img.rt {
+	float: right;
+	margin-left: 1rem;
+	max-width: 300px;
+}

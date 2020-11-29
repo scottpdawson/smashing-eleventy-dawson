@@ -3,6 +3,7 @@ layout: layouts/home.njk
 title: Performance
 date: 2016-08-24
 permalink: /
+hero: /static/img/performance.jpg
 eleventyNavigation:
   key: Home
   order: 0

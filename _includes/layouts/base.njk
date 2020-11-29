@@ -10,6 +10,9 @@
 				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
 			</em>
 			{% include "components/nav.njk" %}
+			{% if (hero) %}
+			<img class="page-hero" src="{{ hero }}" alt="Hero image for {{ title }}" />
+			{% endif %}
 		</header>
 
 		<main>
