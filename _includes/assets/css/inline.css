@@ -1,7 +1,7 @@
 :root {
-	--primary: blue;
+	--primary: #333;
 	--secondary: white;
-	--background: #FFF0EB;
+	--background: #74ccd1;
 }
 
 *, *:before, *:after {
@@ -22,8 +22,26 @@ body {
 	background-color: var(--background);
 }
 
+main, header, footer {
+	width: clamp(40rem, 70rem, 100%);
+	margin: 0 auto;
+}
+
+footer {
+	background: white;
+    padding: 1em;
+    text-align: center;
+    border-top: 10px solid black;
+}
+
 main {
-	max-width: 37.5em;
+	max-width: 40rem;
+	margin: 0 auto;
+	padding: 1em 1em 2em;
+}
+
+header {
+	text-align: center;
 }
 
 p,
@@ -44,16 +62,6 @@ a[href]:not(:hover) {
 img {
 	max-width: 100%;
 	height: auto;
-}
-
-header,
-main,
-footer {
-	padding: 1em;
-}
-
-main {
-	padding-bottom: 2em;
 }
 
 main :first-child,
@@ -82,15 +90,19 @@ pre {
 header > em {
 	display: block;
 	font-size: 2em;
-	margin: .67em 0;
-	font-weight: bold;
 	font-style: normal;
+	background: white;
+	padding: 2em .5em .5em;
+	text-transform: uppercase;
 }
 
 /* Header Nav */
 header nav ul {
 	padding: 0;
 	list-style: none;
+	background: black;
+	padding: 15px;
+	margin: 0;
 }
 
 header nav ul :first-child {
@@ -104,7 +116,7 @@ header nav li {
 
 header nav li a {
 	padding: .25em .5em;
-	border-radius: .25em;
+	color: white !important;
 }
 
 header nav li a[href]:not(:hover) {
@@ -113,6 +125,7 @@ header nav li a[href]:not(:hover) {
 
 header nav li a[data-current="current item"] {
 	background-color: white;
+	color: black !important;
 }
 
 /* Posts List */
@@ -199,4 +212,31 @@ img.rt {
 	float: right;
 	margin-left: 1rem;
 	max-width: 300px;
+}
+.page-hero {
+	height: 20rem;
+  	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+h1 { 
+	background: white;
+    display: inline-block;
+    padding: .2em 1em;
+    position: relative;
+    top: -50px;
+    border-bottom: 10px solid black;
+    margin-bottom: -50px;
+}
+.no-hero h1 {
+	top: 0px;
+	margin-bottom: 0px;
+}
+table {
+	width: 100%;
+}
+table td {
+	background: #ffffff33;
+    padding: .4em;
 }

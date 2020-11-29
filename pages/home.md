@@ -1,11 +1,11 @@
 ---
-layout: layouts/home.njk
+layout: layouts/page.njk
 title: Performance
 date: 2016-08-24
 permalink: /
 hero: /static/img/performance.jpg
 eleventyNavigation:
-  key: Home
+  key: Performance
   order: 0
 ---
 I played my first **solo piano recital** at the Trumansburg Conservatory of Fine Arts in Trumansburg, New York on Sunday, November 19, 2017. Here's the video of the event!
