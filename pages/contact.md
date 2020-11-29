@@ -8,6 +8,6 @@ hero: /static/img/contact.jpg
 permalink: /contact/index.html
 eleventyNavigation:
   key: Contact
-  order: 2
+  order: 3
 ---
 I teach piano lessons. If you are interested in talking with me about lessons, please fill out the form below. I look forward to teaching you how to play the piano.
